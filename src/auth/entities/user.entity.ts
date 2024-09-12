@@ -21,7 +21,7 @@ export class User {
     @Prop({ type: [String], default: ['user'] })
     roles: string[];
 
-    @Prop({ type: [Country], default: [] })
+    @Prop({ type: [CountrySchema], default: [] })
     countries: Country[] = [];
 
 }
